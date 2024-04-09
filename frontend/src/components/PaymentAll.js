@@ -45,7 +45,7 @@ export const PaymentAll = () => {
         .then((res) => {
           alert(res.data.message);
           console.log(res.data.message);
-          window.location.href=`/`;
+          window.location.href=`/getAllPayment`;
         })
         .catch((err) => {
           console.log('💀 :: Error on API URL : '+err.message);
