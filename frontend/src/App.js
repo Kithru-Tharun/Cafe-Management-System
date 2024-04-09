@@ -14,7 +14,7 @@ function App() {
       <Routes>
 
           <Route path='/create' element={<PaymentCreateForm/>}/>
-          <Route path='/' element={<PaymentAll/>}/>
+          <Route path='/getAllPayment' element={<PaymentAll/>}/>
           <Route path='/update/:id' element={<PaymentUpdateForm/>}/>
           
 

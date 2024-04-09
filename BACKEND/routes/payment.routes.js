@@ -12,7 +12,7 @@ const {
 
 //post(URL,function)
 paymentRouter.post('/create',addPayment);
-paymentRouter.get('/',getAllPayments);
+paymentRouter.get('/getAllPayment',getAllPayments);
 paymentRouter.get('/getOne/:id',getOnePayment);
 paymentRouter.patch('/updatePayment/:id',updatePayment);
 paymentRouter.delete('/deletePayment/:id',deletePayment);

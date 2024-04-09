@@ -16,7 +16,7 @@ export const PaymentAll = () => {
     const getAllPayments = async () => {
 
       try{
-        await axios.get('http://localhost:8000/payment/')
+        await axios.get('http://localhost:8000/payment/getAllPayment')
         .then((res) => {
           setPaymentAll(res.data.allPayments);
           console.log(res.data.message);
